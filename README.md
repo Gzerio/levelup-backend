@@ -1,12 +1,11 @@
-# LevelUp Backend 🎮📚
-
+# LevelUp Backend 
 Backend em **Spring Boot** para o LevelUp – uma API de estudos/tarefas gamificada, onde o usuário ganha **XP**, sobe de **nível** e organiza seus **projetos de estudo**.
 
 Pensado para ser um projeto de portfólio **limpo, seguro e pronto para produção**, com autenticação JWT, PostgreSQL e boas práticas de arquitetura.
 
 ---
 
-## 🚀 Tecnologias
+##  Tecnologias
 
 - **Java 21+** (projeto usando toolchain Java 25)
 - **Spring Boot 3**
@@ -20,7 +19,7 @@ Pensado para ser um projeto de portfólio **limpo, seguro e pronto para produç�
 
 ---
 
-## 🧱 Domínio principal
+## Domínio principal
 
 ### Usuário (`Usuario`)
 - `id`
@@ -43,7 +42,7 @@ Pensado para ser um projeto de portfólio **limpo, seguro e pronto para produç�
 
 ---
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 Camadas separadas por responsabilidade:
 
@@ -64,7 +63,7 @@ Camadas separadas por responsabilidade:
 
 ---
 
-## 🔒 Segurança
+## Segurança
 
 - **Autenticação** via **JWT** (`Bearer <token>`).
 - Senhas armazenadas com **BCrypt**.
@@ -77,7 +76,7 @@ Camadas separadas por responsabilidade:
 
 ---
 
-## ⚙️ Configuração do ambiente
+## Configuração do ambiente
 
 ### 1. Requisitos
 
